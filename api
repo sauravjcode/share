@@ -1,40 +1,22 @@
-[
-  {
-    "Before": {
-      "ProspectActivityId": "adffb123-52b0-4eb8-9d95-9653bc682bd0",
-      "ProspectId": "3f943928-ebee-4f1c-a307-cd08491950a6",
-      "ProspectAutoId": "1849",
-      "ActivityEvent": "12000",
-      "ActivityType": "2",
-      "CreatedOn": "2025-08-13 07:14:00",
-      "CreatedBy": "462081a2-5282-11f0-9d7b-063f87c6ac81",
-      "CreatedByName": "Sagar Dudani",
-      "ModifiedOn": "2025-08-13 07:49:33",
-      "ModifiedBy": "462081a2-5282-11f0-9d7b-063f87c6ac81",
-      "ModifiedByName": "Sagar Dudani",
-      "RelatedOpportunityEvent": "",
-      "RelatedOpportunityId": "",
-      "mx_Custom_2": "Partial Payment",
-      "mx_Custom_37": "3000",
-      "mx_Custom_39": "6000"
-    },
-    "After": {
-      "ProspectActivityId": "adffb123-52b0-4eb8-9d95-9653bc682bd0",
-      "ProspectId": "3f943928-ebee-4f1c-a307-cd08491950a6",
-      "ProspectAutoId": "1849",
-      "ActivityEvent": "12000",
-      "ActivityType": "2",
-      "CreatedOn": "2025-08-13 07:14:00",
-      "CreatedBy": "462081a2-5282-11f0-9d7b-063f87c6ac81",
-      "CreatedByName": "Sagar Dudani",
-      "ModifiedOn": "2025-08-13 07:49:43",
-      "ModifiedBy": "2041ed02-1d13-11f0-a986-06c72fc46c23",
-      "ModifiedByName": "System",
-      "RelatedOpportunityEvent": "",
-      "RelatedOpportunityId": "",
-      "mx_Custom_2": "Enrolled",
-      "mx_Custom_37": "9000",
-      "mx_Custom_39": "0"
-    }
-  }
-]
+curl --location 'https://testseries.aarishkhan.com/api/v1/test-series/receive/checked-answer-papers' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: AyF1aLp4QzB3xwNsA3rW4iJ6GLkD6OrwIsynGfRt9CyCYYZZF4mvWxqCWth2' \
+--data '{
+    "orderId": 73284,
+    "questionLink": "https://api.prepca.com/api/v1/data/files/question/P4-CA-Final-DT-30_QUE-PAPER-edit08aug_1754912891340_cfba993fee6e711a10e4e51efd8e8c3.pdf",
+    "studentAnswerLink": "https://testseries.aarishkhan.com/test_series/answer_papers/user_170/84_q1.pdf",
+    "checkedAnswer": "https://api.prepca.com/api/v1/data/files/student_answer/Shruti-Jain-DT-STD_1754551241489_b6b9c1ef538673b0b702222c2110432.pdf",
+    "checkedAnswerUploadTime": "2025-08-07 12:51",
+    "adarReport": null,
+    "adarReportUploadTime": "",
+    "birdsEyeView": "https://api.prepca.com/api/v1/data/files/student_answer/Shruti-Jain_1754646240236_10690ae7fa1759595c4453663df6d71.pdf",
+    "birdsEyeViewUploadTime": "2025-08-08 15:14",
+    "status": "completed",
+    "remark": "",
+    "courseName": "CA",
+    "syllabusName": "FINAL",
+    "sessionName": "September 2025",
+    "portionName": "30%",
+    "subjectName": "DIRECT TAX LAWS & INTERNATIONAL TAXATION",
+    "obtainedMarks": 7
+  }'
