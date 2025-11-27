@@ -1,8 +1,18 @@
+Meta's Response
 {
-    "error": {
-        "message": "(#133010) Account not registered",
-        "type": "OAuthException",
-        "code": 133010,
-        "fbtrace_id": "A_mqaVRpMcfum-1kWaVPfX-"
-    }
+    "id": "wamid.HBgMOTE4MTc4NDUyOTU1FQIAERgSQTczN0Q3RDc5RUE0QjhDNjlBAA==",
+    "status": "failed",
+    "timestamp": "1764227279",
+    "recipient_id": "918178452955",
+    "biz_opaque_callback_data": "OTE4OTU2MzcxOTQ5LjkxODE3ODQ1Mjk1NQ==",
+    "errors": [
+        {
+            "code": 131049,
+            "title": "This message was not delivered to maintain healthy ecosystem engagement.",
+            "message": "This message was not delivered to maintain healthy ecosystem engagement.",
+            "error_data": {
+                "details": "In order to maintain a healthy ecosystem engagement, the message failed to be delivered."
+            }
+        }
+    ]
 }
